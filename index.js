@@ -11,7 +11,7 @@ function johnLennonFacts(facts){
   var array = []
   while(facts.length > 0){
     facts ++
-    array.push("!!!")
+    array.push(`${facts}!!!`)
   }
   return array
 }
